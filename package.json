@@ -2,9 +2,10 @@
   "name": "apollo-server",
   "description": "",
   "dependencies": {
-    "apollo-server": "2.9.7",
+    "apollo-server-express": "2.9.7",
     "cors": "2.8.5",
     "graphql": "14.5.8",
+    "graphql-iso-date": "3.6.1",
     "graphql-tag": "^2.10.1",
     "helmet": "3.22.0",
     "mongoose": "5.9.16"
@@ -18,5 +19,9 @@
   "devDependencies": {
     "@types/graphql": "14.0.1",
     "nodemon": "1.18.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mdestafadilah/jseverywhere-api-sandbox.git"
   }
 }
